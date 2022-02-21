@@ -7,6 +7,27 @@
   pointer-events: none;
 }
 
+.buttonsubmit{
+  width: 100%;
+  border-radius: 7px;
+  border-color: blue;
+  padding: 5px;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  background-image: linear-gradient(to left, rgba(0, 159, 255, 1), rgba(236, 47, 75, 1));
+}
+
+
+.inputtexts{
+  width: 95%;
+  margin-bottom: 5px;
+}
+.labels{
+  font-size: 15px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
